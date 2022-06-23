@@ -74,6 +74,10 @@ body, html {
 .hidden {
    visibility: hidden;
 }
+.icon-img {
+   width: 24px;
+   height: 24px;
+}
 
 @media (min-width: 481px) {
    .layout-ctt {
