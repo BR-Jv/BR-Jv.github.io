@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Survey Form</title>
+</head>
+<body>
+   <div class="div-title">
+      <h1 id="title">Title</h1>
+      <p id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+   </div>
+   <form id="survey-form">
+      <!--TEXT-->
+      <div id="" class="form-div">
+         <label for="name" id="name-label" class="form-label">Name</label>
+         <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+      </div>
+      <!--EMAIL-->
+      <div id="" class="form-div">
+         <label for="email" id="email-label" class="form-label">Email</label>
+         <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+      </div>
+      <!--NUMBER-->
+      <div id="" class="form-div">
+         <label for="age" id="number-label" class="form-label">Age</label>
+         <input type="number" id="number" name="age" min="6" max="120" class="form-input" placeholder="Age">
+      </div>
+      <!--Select-->
+      <div class="form-div">
+         <p class="form-label">Current role</p>
+         <select name="" id="dropdown" class="form-input">
+            <option value="op1">OPTION ONE</option>
+            <option value="op2">OPTION TWO</option>
+            <option value="op3">OPTION THREE</option>
+         </select>
+      </div>
+      <!-- Radio -->
+      <div class="form-div">
+         <p class="form-label">do you like programming ?</p>
+         <div class="form-label">
+            <input type="radio" id="definitely" name="recommend" value="definitely">
+            <label for="definitely">Definitely</label>
+         </div>
+         <div class="form-label">
+            <input type="radio" id="maybe" name="recommend" value="maybe">
+            <label for="maybe">Maybe</label>
+         </div>
+         <div class="form-label">
+            <input type="radio" id="not-sure" name="recommend" value="not-sure">
+            <label for="not-sure">Not sure</label>
+         </div>
+      </div>
+      <!--checkbox-->
+      <div class="form-div">
+         <p class="form-label">What programming languages do you know ?</p>
+         <div class="form-label">
+            <input type="checkbox" id="op1" name="languageOne" value="python">
+            <label for="op1">Python</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op2" name="languageTwo" value="java">
+            <label for="op2">Java</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op3" name="languageThree" value="c++">
+            <label for="op3">C++</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op4" name="languageFour" value="javascript">
+            <label for="op4">Javascript</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op5" name="languageFive" value="php">
+            <label for="op5">Php</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op6" name="languageSix" value="go">
+            <label for="op6">Go</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op7" name="languageSeven" value="r">
+            <label for="op7">R</label>
+         </div>
+         <div class="form-label">
+            <input type="checkbox" id="op8" name="languageEight" value="swift">
+            <label for="op8">Swift</label>
+         </div>
+      </div>
+      <!--textarea-->
+      <div class="form-div">
+         <p class="form-label">Any comments or suggestions ?</p>
+         <textarea name="comments-or-suggestions" id="comments-or-suggestions" cols="30" rows="10"></textarea>
+      </div>
+      <!--SUBMIT-->
+      <div class="form-div">
+         <input type="submit" value="submit" id="submit" class="btn">
+      </div>
+   </form>
+</body>
+</html>

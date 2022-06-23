@@ -1,0 +1,66 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+:root {
+   --bg-tbn: #19A619;
+   --bg-form1: #4919ce;
+   --bg-form2: #303030;
+}
+body, html {
+   height: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/imgs/pexels-fauxels-3183197.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+.div-title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 15%;
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   color: #f1f1f1;
+   letter-spacing: 1px;
+}
+/* FORM */
+#survey-form {
+   width: 100%;
+   margin: auto;
+   background-color: var(--bg-form2);
+   font-family: 'Courier New', Courier, monospace;
+   letter-spacing: .1rem;
+}
+.form-div{
+   display: flex;
+   flex-direction: column;
+   padding: .8rem 1.5rem;
+}
+.form-label {
+   margin: .5rem 0;
+   color: #f1f1f1;
+}
+.form-input {
+   padding: .5rem;
+   border: none;
+   border-radius: 5px;
+}
+.btn {
+   border: none;
+   padding: .3rem;
+   width: 100%;
+   color: #f1f1f1;
+   background-color: var(--bg-tbn);
+   cursor: pointer;
+}
+
+@media (min-width: 540px) {
+   #survey-form, .div-title {
+      width: 580px;
+   }
+}
