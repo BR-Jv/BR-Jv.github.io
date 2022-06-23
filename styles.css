@@ -75,8 +75,8 @@ body, html {
    visibility: hidden;
 }
 .icon-img {
-   width: 24px;
-   height: 24px;
+   width: 18px;
+   height: 18px;
 }
 
 @media (min-width: 481px) {
