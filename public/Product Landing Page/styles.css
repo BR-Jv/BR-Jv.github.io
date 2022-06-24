@@ -1,6 +1,26 @@
+:root {
+   --color1: #131FF2;
+   --color2: #0F228C;
+}
 html, body {
    width: 100%;
 }
-.table-responsive {
-   
+#content-div {
+   width: 75%;
+}
+#content-div p {
+   font-family: 'Courier New', Courier, monospace;
+}
+#introduction {
+   height: 100vh;
+}
+.row {
+   height: 50%;
+}
+.btn-color {
+   color: #fff;
+   background-color: var(--color1);
+}
+.btn-color:hover{
+   color: #fff;
 }
