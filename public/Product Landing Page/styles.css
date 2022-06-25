@@ -14,6 +14,9 @@ html, body {
 #introduction {
    height: 100vh;
 }
+#contact {
+   height: 60vh;
+}
 .row {
    height: 50%;
 }
