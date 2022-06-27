@@ -2,11 +2,9 @@
    --bgBlack: #1b1c1e;
    --colorBlack: #1F1F1F; 
 }
-
 body, html {
    height: 100%;
 }
-
 .hero-img {
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/imgs/Dev.jpg") ;
    height: 100%;
@@ -34,7 +32,6 @@ body, html {
    height: 100%;
    border: 1px solid var(--bgBlack);
 }
-
 /* Contato */
 .footer {
    left: 0;
@@ -45,7 +42,6 @@ body, html {
    color: #f1f1f1;
    text-align: center;
 }
-
 .link-ctt {
    color: var(--colorBlack);
    font-size: larger;
