@@ -4,6 +4,7 @@
 }
 html, body {
    width: 100%;
+   overflow-x: hidden;
 }
 form {
    max-width: 640px;
@@ -24,8 +25,8 @@ img {
 #introduction {
    height: 100vh;
 }
-#contact {
-   height: 60vh;
+#contact div {
+   margin: auto;
 }
 .row {
    height: 50%;
@@ -36,4 +37,9 @@ img {
 }
 .btn-color:hover{
    color: #fff;
+}
+
+.footer-p {
+   color: white;
+   letter-spacing: 0.3rem;
 }
