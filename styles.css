@@ -32,33 +32,11 @@ body, html {
    height: 100%;
    border: 1px solid var(--bgBlack);
 }
-/* Contato */
-.footer {
-   left: 0;
-   bottom: 0;
-   padding: 25px;
-   width: 100%;
-   background-color:  var(--bgBlack);
+footer {
+   background-color: var(--bgBlack);
    color: #f1f1f1;
-   text-align: center;
-}
-.link-ctt {
-   color: var(--colorBlack);
-   font-size: larger;
-   text-decoration: none;
-   padding: .3rem;
-   width: 124px;
-   
-}
-.layout-ctt {
-   height: 20vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-around;
-   text-align: center;
-   margin-bottom: 1rem;
-   
+   letter-spacing: 0.1rem;
+   font-family: Helvetica;
 }
 /* Navegação */
 .navbar{
@@ -67,12 +45,14 @@ body, html {
    top: 0;
    z-index: 3;
 }
-.hidden {
-   visibility: hidden;
-}
+
 .icon-img {
    width: 18px;
    height: 18px;
+}
+
+#Contact  span {
+   font-family: monospace;
 }
 
 @media (min-width: 481px) {
